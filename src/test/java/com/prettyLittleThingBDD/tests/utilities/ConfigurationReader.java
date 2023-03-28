@@ -1,11 +1,10 @@
-package com.prettyLittleThing.tests.utilities;
+package com.prettyLittleThingBDD.tests.utilities;
 
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
 public class ConfigurationReader {
-
 
     private static Properties properties;
 
@@ -20,14 +19,11 @@ public class ConfigurationReader {
             input.close();
         } catch (IOException e) {
             e.printStackTrace();
-
         }
     }
 
-
     public static String get(String keyName) {
 
-         return properties.getProperty(keyName);
+        return properties.getProperty(keyName);
     }
-
 }

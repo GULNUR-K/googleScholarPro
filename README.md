@@ -10,11 +10,13 @@ gulnur1984@yahoo.com
 
 **www.linkedin.com/in/gulnur-kircaer**
 
-**https://github.com/GULNUR-K/PrettyLitheThing.git**
+**https://github.com/GULNUR-K/PrettyLitheThingBDD.git**
 
 - Build Tool: Maven
 
-- Test Framework: TestNG
+- Test Framework: Cucumber-JUnit
+
+- UI Testing Tool : Selenium WebDriver
 
 **Environments:**
 
